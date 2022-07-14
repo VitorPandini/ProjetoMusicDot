@@ -4,9 +4,93 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link	rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/cabecalho.css" type="text/css">
+  <link rel="stylesheet" href="css/rodape.css" type="text/css">
+  <link rel="stylesheet" href="css/form-newsletter.css" type="text/css">
+  <title>MusicDot</title>
 </head>
 <body>
-  <h1>A pagina temporaria </h1>
+
+  <header class="cabecalho">
+    <a href="index.html">
+      <img  class="cabecalho_logo" src="img/musicdot-logo-light.svg" alt="MusicDot" title="Ir para a página inicial do MusicDot">
+    </a>
+
+    <nav>
+      <ul class="cabecalho_menu">
+        <li class="cabecalho_item-menu"><a href="sobre.html#contatos">Contato</a></li>
+        <li class="cabecalho_item-menu"><a href="#">Entrar</a></li>
+        <li class="cabecalho_item-menu cabecalho_item-menu--matricular"><a href="#">Matricule-se</a></li>
+      </ul>
+    </nav>
+
+  </header>
+                      <!--TODA PARTE DO MAIN-->
+  <main>
+    conteudo principal
+  </main>
+                  <!--FOOTER TODA PARTE DO RODAPE-->
+  <footer class="rodape">
+
+    <section class="rodape_secao">
+      <img class="rodape_logo" src="img/logo.svg" alt="Logo MusicDot">
+
+      <p class="rodape_infos_empresa">
+        AOVS	Sistemas	de	Informática	S.A.
+        <br>
+        CNPJ	05.555.382/0001-33
+        <br>
+        Rua	Vergueiro	-	São	Paulo/SP
+        <br>
+        Telefone	(11)	4118-3319
+      </p>
+      <ul class="rodape_lista-midias-sociais">
+        <li class="rodape_item-midias-sociais"><a href="http://wwww.facebook.com/musicdotonline"><img src="img/footer-icone-facebook.svg" alt="MusicDot Facebook"></a></li>
+        <li class="rodape_item-midias-sociais"><a href="http://www.youtube.com/user/musicdotonline"><img src="img/footer-icone-youtube.svg" alt="MusicDot Youtube"></a></li>
+        <li class="rodape_item-midias-sociais"><a href="http://wwww.instagram.com/musicdotonline"><img src="img/footer-icone-instagram.svg" alt="MusicDot Instagram"></a></li>
+      </ul>
+    </section>
+
+    <section class="rodape_secao">
+      <h2 class="rodape_titulo">Cursos da MusicDot</h2>
+      <nav>
+        <ul>
+          <li class="rodape_item-lista"><a href="#">Teclado e Piano</a></li>
+          <li class="rodape_item-lista"><a href="#">Guitarra e Baixo</a></li>
+          <li class="rodape_item-lista"><a href="#">Bateria</a></li>
+          <li class="rodape_item-lista"><a href="#">Curso de Canto</a></li>
+          <li class="rodape_item-lista"><a href="#">Teclado e Piano</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="rodape_secao">
+      <h2 class="rodape_titulo">MusicDot</h2>
+      <nav>
+        <ul>
+          <li class="rodape_item-lista"><a href="#" >Apostila</a></li>
+          <li class="rodape_item-lista"><a href="#">E-book</a></li>
+          <li class="rodape_item-lista"><a href="#">Login</a></li>
+          <li class="rodape_item-lista"><a href="#">Matricule-se</a></li>
+          <li class="rodape_item-lista"><a href="#">Perrguntas Frequentes</a></li>
+          <li class="rodape_item-lista"><a href="#">Para Escola</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="rodape_secao">
+      <h2 class="rodape_titulo">Receba Novidades e Lançamentos </h2>
+      <form action="#" method="get" class="form-newsletter">
+        <label for="form-newsletter_label" class="form-newsletter_label">Seu email pessoal</label>
+        <input id="email_newsletter" name="email-newsletter" type="email" class="form-newsletter_campo" >
+        <button type="submit" class="form-newsletter_botao">OK</button>
+      </form>
+    </section>
+
+  </footer>
+
 </body>
 </html>
